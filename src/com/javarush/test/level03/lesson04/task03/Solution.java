@@ -63,7 +63,9 @@ public class Solution
         vasja25.name = "v25";
         vasja26.name = "v26";
         vasja27.name = "v27";
+
     }
+
 
     public static class Zerg
     {
