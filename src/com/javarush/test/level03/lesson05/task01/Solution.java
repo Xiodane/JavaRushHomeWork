@@ -21,7 +21,9 @@ public class Solution
 
     public static void printFullName(Student student)
     {
-        System.out.print(student.firstName);
+        System.out.println(student.firstName);
+        System.out.println(student.middleName);
+        System.out.print(student.lastName);
     }
 
     public static class Student
