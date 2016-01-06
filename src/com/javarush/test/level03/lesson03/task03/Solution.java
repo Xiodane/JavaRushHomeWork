@@ -7,8 +7,9 @@ package com.javarush.test.level03.lesson03.task03;
 */
 public class Solution
 {
-    public static void addTenPercent(int i) {
-        //напишите тут ваш код
+    public static double addTenPercent(int i) {
+        double b = i + i*0.1;
+        return b;
     }
 
     public static void main(String[] args) {
