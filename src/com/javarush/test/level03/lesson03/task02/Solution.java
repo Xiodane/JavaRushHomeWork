@@ -9,10 +9,15 @@ package com.javarush.test.level03.lesson03.task02;
 public class Solution
 {
     public static void main(String[] args) {
-        //напишите тут ваш код
+    double b = convertEurToUsd(1,1.5);
+        System.out.println(b);
+        b = convertEurToUsd(2,2.5);
+        System.out.println(b);
     }
 
     public static double convertEurToUsd(int eur, double course){
-        //напишите тут ваш код
+        double result = eur*course;
+        return result;
+
     }
 }
