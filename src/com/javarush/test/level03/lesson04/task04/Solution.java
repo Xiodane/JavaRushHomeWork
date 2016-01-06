@@ -16,5 +16,6 @@ public class Solution
 
         }    //напишите тут ваш код
         System.out.println(result);
+
     }
 }
