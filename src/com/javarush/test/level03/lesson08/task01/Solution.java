@@ -14,7 +14,9 @@ public class Solution
 {
     public static void main(String[] args) throws Exception
     {
-        //напишите тут ваш код
-
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String name = reader.readLine();
+        String age = reader.readLine();
+        System.out.println(name +" захватит мир через " + age + " лет. Му-ха-ха!" );
     }
 }
